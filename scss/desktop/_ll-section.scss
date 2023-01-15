@@ -1,0 +1,26 @@
+.section-ll {
+    display: flex;
+    justify-content: center;
+}
+.cont-sec-2 {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+.sec-2-style {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 264px;
+    padding: 0px;
+    gap: 8px;
+}
+.ll-section-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    background: var(--cloud);
+    border-radius: 4px;
+}

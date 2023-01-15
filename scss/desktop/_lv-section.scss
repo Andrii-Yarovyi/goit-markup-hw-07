@@ -1,0 +1,76 @@
+.team-fon {
+    background-color: var(--cloud);
+    background-position: center;
+}
+.lv-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lv-sec-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 72px;
+    gap: 24px;
+    cursor: pointer;
+}
+.team-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+    cursor: pointer;
+
+    background: #FFFFFF;
+    box-shadow:
+    0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+.lv-sec-photo {
+    width: 264px;
+    height: 260px;
+
+}
+.team-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+}
+.social-list {
+    display: flex;
+    gap: 16px;
+}
+/* posylania */
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--iris-primary-brand);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: var(--transition-durat-prop-func);
+}
+.social-list-link:hover, 
+.social-list-link:focus {
+    background-color: var(--green-success);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
+.social-list-link:active {
+    background-color: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.social-list-icon {
+    fill: var(--cloud);
+}

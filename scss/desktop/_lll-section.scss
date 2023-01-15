@@ -1,0 +1,36 @@
+.lll {
+    padding-top: 0;
+}
+.lll-section {
+    display: flex;
+    flex-direction: column;
+}
+.lll-sec-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 72px;
+    gap: 24px;
+}
+.lll-sec-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+.lll-section-img {
+    width: 360px;
+    height: 300px;
+    box-sizing: border-box;
+    background: linear-gradient(0deg, 
+    rgba(77, 90, 229, 0.1), 
+    rgba(77, 90, 229, 0.1));background-blend-mode: soft-light, normal;
+}
+.lll-section-img:hover,
+.lll-section-img:focus {
+    box-sizing: border-box;
+    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), 
+    url(2368.jpg);
+    background-blend-mode: soft-light, normal; 
+    border: 1px solid #E7E9FC;
+}

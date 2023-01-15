@@ -1,0 +1,56 @@
+.v-section {
+    display: flex;
+    flex-direction: column;
+}
+.customers-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 72px;
+}
+.customers-list-link {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 88px;
+    border: 1px solid var(--light-slate);
+    border-radius: 4px;
+    transition: border-color var(--transition-duration-and-func);
+
+}
+.customers-list-ikon {
+    width: 168px;
+    height: 88px;
+    padding: 16px 32px; 
+    fill: var(--light-slate);
+    border: 1px solid var(--light-slate);
+    border-radius: 4px;
+    transition: fill var(--transition-duration-and-func);
+}
+.customers-list-link:hover,
+.customers-list-link:focus {
+    box-sizing: border-box;
+    border: 1px solid var(--iris-primary-brand);
+    border-radius: 4px;
+    border-color: var(--transition-duration-and-func);
+}
+.customers-list-link:hover .customers-list-ikon,
+.customers-list-link:focus .customers-list-ikon {
+    fill: var(--iris-primary-brand);
+    border: 1px solid var(--iris-primary-brand);
+    border-radius: 4px;
+}
+
+.customers-list-ikon:hover,
+.customers-list-ikon:focus {
+    width: 168px;
+    height: 88px;
+    padding: 16px 32px; 
+    fill: var(--iris-primary-brand);
+    border: 1px solid var(--iris-primary-brand);
+    border-radius: 4px;
+    transition: fill var(--transition-duration-and-func);
+}
