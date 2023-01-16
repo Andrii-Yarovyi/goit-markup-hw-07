@@ -1,0 +1,30 @@
+@media screen and (max-width: 767px) {
+    .menu-nav {
+    display: none;
+    }
+    
+    .contact-mail-address {
+    display: none;
+    }
+
+    .contact-phone-number {
+        display: none;
+    }
+
+    .mobile-menu-open {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        line-height: 0;
+    }
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+

@@ -39,47 +39,108 @@
                     </li>
                 </ul>
             </nav>
-            <button type="button" class="mobile-menu-open">
-                <svg class="mobile-menu-open_icon" width="32" height="32">
-                    <use href="./imades/sprite.svg#icon-menu-hamburger"></use>
+            <button type="button" class="mobile-menu-open" data-menu-open>
+                <svg class="mobile-menu-open_icon" width="30" height="19">
+                    <use href="./imades/sprite.svg#icon-menu-mobile"></use>
                 </svg>
             </button>
 <!-- CONTACTS -->
-            <a class="contact-mail-address link" 
-                href="mailto:info@devstudio.com">
-                    info@devstudio.com</a>
+            <ul class="contact-mail-phone list">
+                <li>
+                    <a class="contact-mail-address link" 
+                        href="mailto:info@devstudio.com">
+                        info@devstudio.com</a>
+                </li>
+                <li>
+                    <a class="contact-phone-number link" 
+                        href="tel:+110001111111">
+                        +11 (000) 111-11-11</a>
+                </li>
+            </ul>
+            
 
-            <a class="contact-phone-number link" 
-                href="tel:+110001111111">
-                   +11 (000) 111-11-11</a>
+            
         </div>
-        <div class="mobile-menu">
-            <button class="mobile-menu_close-btn">
+        <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu__container">
+                <button class="mobile-menu_close-btn" data-menu-close>
                 <svg class="mobile-menu_close-icon" width="40" height="40">
                     <use href="./imades/sprite.svg#icon-close-modal"></use>
                 </svg>
-            </button>
-            <ul>
+                </button>
+                <ul class="mobile-menu_nav">
                     <li><a href="">Studio</a></li>
                     <li><a href="">Portfolio</a></li>
                     <li><a href="">Contacts</a></li>
                 </ul>
+                <ul class="mobile__contact">
+                    <li><a class="contact-phone__number link" 
+                href="tel:+110001111111">
+                   +11 (000) 111-11-11</a></li>
+                    <li><a class="contact-mail__address link" 
+                href="mailto:info@devstudio.com">
+                    info@devstudio.com</a></li>
+                </ul>
+                <ul class="mobile__social-list list">
+                    <li class="social-list-item">
+                        <a href="" class="footer-social-list-link">
+                            <svg class="social-list-icon" width="20" height="20">
+                                <use href="./imades/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="" class="footer-social-list-link">
+                            <svg class="social-list-icon" width="20" height="20">
+                                <use href="./imades/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="" class="footer-social-list-link">
+                            <svg class="social-list-icon" width="20" height="20">
+                                <use href="./imades/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="" class="footer-social-list-link">
+                            <svg class="social-list-icon" width="20" height="20">
+                                <use href="./imades/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
         </div>  
     </header>
 <!-- ==================== / HEADER ==================== -->
 
 <!-- MAIN -->
-    <main>
+
+
+
+
+    <!-- <main>
         <section class="section-hiro">
             <div class="container hiro-fon hiro-section">
                 <h1 class="main-title title-h1">Effective Solutions <br /> for Your Business</h1>
                 <button data-modal-open class="modal-btn" type="button">Order Service</button>
             </div>
-        </section>
+        </section> -->
+
+
+
+
 <!-- ==================== / I SECTION - HERO ==================== -->
 
 <!-- II SECTION - BENEFITS -->
-        <section class="section">
+
+
+
+
+        <!-- <section class="section">
             <div class="container section-ll">
                 <ul class="cont-sec-2">
                     
@@ -120,11 +181,19 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
+
+
+
+
 <!-- ==================== / II SECTION - BENEFITS ==================== -->
 
 <!-- III SECTION - What are we doing -->
-        <section class="section lll">
+
+
+
+
+        <!-- <section class="section lll">
             <div class="container lll-section">
                 <h2 class="title-text lll-sec-title">What are we doing</h2>
                 <ul class="lll-sec-list">
@@ -154,11 +223,21 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
+
+
+
+
+
 <!-- ==================== / III SECTION - What are we doing ==================== -->
 
 <!-- IV SECTION - Our Team -->
-        <section class="section team-fon">
+
+
+
+
+
+        <!-- <section class="section team-fon">
             <div class="container lv-section">
                 <h2 class="title-text">Our Team</h2>
                 <ul class="lv-sec-list">
@@ -339,9 +418,16 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
+
+
+
+
         <!-- ==================== / IV SECTION - Our Team ==================== -->
-        <section class="section">
+
+
+
+        <!-- <section class="section">
             <div class="container v-section">
                 <h2 class="title-text -sec-title">Customers
                 </h2>
@@ -395,11 +481,19 @@
                 </ul>
             </div>
         </section>
-    </main>
+    </main> -->
+
+
+
 <!-- ==================== / MAIN ==================== -->
 
     <!-- FOOTER -->
-    <footer class="footer-fon">
+
+
+
+
+
+    <!-- <footer class="footer-fon">
         <div class=" container footer-section">
             <div class="footer-info">
                 <div class="logo logo-footer">
@@ -463,12 +557,14 @@
                     </span>
             </form>
         </div>
-    </footer>
+    </footer> -->
 <!-- ==================== / FOOTER ==================== -->
 
 
 <!-- MODAL WINDOW -->
-    <div class="backdrop is-hidden" data-modal>
+
+
+    <!-- <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button 
                 data-modal-close 
@@ -559,8 +655,9 @@
                     class="modal-form-submit">Send</button>
             </form>
         </div>
-    </div>
+    </div> -->
 
-    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
 </body>
 </html>
