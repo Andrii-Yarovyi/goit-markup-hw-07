@@ -34,3 +34,9 @@
     background-blend-mode: soft-light, normal; 
     border: 1px solid #E7E9FC;
 }
+
+@media screen and (max-width: 1199px) {
+    .lll {
+        display: none;
+    }
+}

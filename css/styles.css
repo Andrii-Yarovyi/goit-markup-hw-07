@@ -677,6 +677,8 @@ h6 {
     flex-direction: row;
     justify-content:start;
 }
+
+
 .modal-subscribe-input {
     width: 264px;
     height: 40px;
@@ -780,6 +782,8 @@ h6 {
     padding: 0;
     transition: border-color var(--transition-duration-and-func);
 }
+
+
 .mobile-menu_close-btn {
     position: absolute;
     top: 28px;

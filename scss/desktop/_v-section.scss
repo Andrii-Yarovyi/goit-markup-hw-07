@@ -54,3 +54,30 @@
     border-radius: 4px;
     transition: fill var(--transition-duration-and-func);
 }
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .customers-list {
+        flex-wrap: wrap;
+        gap: 16px;
+        row-gap: 72px;
+    }
+
+    .title-text {
+        font-weight: 700;
+    }
+
+    .customers-list-link {
+        width: 190px;
+    }
+
+    .customers-list-ikon {
+        width: 190px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .customers-list {
+        flex-wrap: wrap;
+        row-gap: 72px;
+    }
+}

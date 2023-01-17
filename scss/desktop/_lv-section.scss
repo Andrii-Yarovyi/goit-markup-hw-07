@@ -7,14 +7,7 @@
     flex-direction: column;
     justify-content: center;
 }
-.lv-sec-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 72px;
-    gap: 24px;
-    cursor: pointer;
-}
+
 .team-card {
     display: flex;
     flex-direction: column;
@@ -73,4 +66,34 @@
 
 .social-list-icon {
     fill: var(--cloud);
+}
+
+.lv-sec-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 72px;
+    gap: 24px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .lv-sec-list {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .team-card {
+        width: 260px;
+
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .lv-sec-list {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
 }
