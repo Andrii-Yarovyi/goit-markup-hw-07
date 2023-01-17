@@ -73,11 +73,12 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 72px;
+    row-gap: 72px;
     gap: 24px;
     cursor: pointer;
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .lv-sec-list {
         flex-direction: column;
         margin-left: auto;
@@ -87,7 +88,6 @@
 
     .team-card {
         width: 260px;
-
     }
 }
 
@@ -95,5 +95,6 @@
     .lv-sec-list {
         flex-wrap: wrap;
         flex-direction: row;
+        row-gap: 72px;
     }
 }

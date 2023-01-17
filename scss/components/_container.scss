@@ -33,7 +33,7 @@
 }
 
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 400px) and (max-width: 767px) {
     .container {
         width: 428px;
         margin-left: auto;
@@ -47,7 +47,7 @@
 
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .menu-nav {
         display: none;
     }
@@ -78,7 +78,7 @@
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .page-header {
         display: flex;
         justify-content: space-between;
@@ -304,7 +304,7 @@
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .section {
         justify-content: center;
         padding-top: 96px;

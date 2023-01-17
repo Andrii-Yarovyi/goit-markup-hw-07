@@ -148,7 +148,7 @@ h6 {
   height: 436px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 400px) and (max-width: 767px) {
   .container {
     width: 428px;
     margin-left: auto;
@@ -161,7 +161,7 @@ h6 {
     margin-right: auto;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .menu-nav {
     display: none;
   }
@@ -191,7 +191,7 @@ h6 {
     line-height: 0;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .page-header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -447,7 +447,7 @@ h6 {
     height: 436px;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .section {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -870,7 +870,7 @@ h6 {
   color: var(--slate-text);
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cont-sec-2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -971,7 +971,7 @@ h6 {
     margin: 0;
   }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1200px) {
   .cont-sec-2 {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1069,7 +1069,7 @@ h6 {
   border: 1px solid #E7E9FC;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1200px) {
   .lll {
     display: none;
   }
@@ -1195,11 +1195,12 @@ h6 {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 72px;
+  row-gap: 72px;
   gap: 24px;
   cursor: pointer;
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .lv-sec-list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1221,6 +1222,7 @@ h6 {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    row-gap: 72px;
   }
 }
 .v-section {
@@ -1307,7 +1309,7 @@ h6 {
   transition: fill var(--transition-duration-and-func);
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .customers-list {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1552,7 +1554,7 @@ h6 {
   border-radius: 4px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .footer-section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

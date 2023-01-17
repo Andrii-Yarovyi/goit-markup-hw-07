@@ -55,7 +55,7 @@
     transition: fill var(--transition-duration-and-func);
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .customers-list {
         flex-wrap: wrap;
         gap: 16px;
