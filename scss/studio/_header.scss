@@ -1,36 +1,35 @@
 .top-line-bg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     background: #FFFFFF;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-
-.container {
-    padding-left: 16px;
-    padding-right: 16px;
-}
-
 .page-header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 24px;
     padding-bottom: 24px;
-}
 
+}
 .navigation {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
 
+}
 .logo {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
 }
-
 .logo-link {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -66,6 +65,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    margin-left: 77px;
     gap: 40px;
 }
 .studio-menu-link {
@@ -95,8 +95,6 @@
     color: var(--iris-primary-brand);
 }
 
-
-
 .menu-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -110,15 +108,6 @@
 .menu-link:focus {
     color: var(--iris-primary-brand);
 }
-.contact-mail-phone {
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.icon-contact {
-    fill: currentColor;
-}
-
 .contact-mail-address {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -126,7 +115,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate-text);
-    margin-left: 331px;
+    
     transition: color var(--transition-duration-and-func);
 }
 .contact-phone-number {
@@ -140,6 +129,15 @@
     transition: color var(--transition-duration-and-func);
 }
 
+.contact-mail-phone {
+    display: flex;
+    flex-direction: row;
+    margin-left: 331px;
+}
+
+.icon-contact {
+    fill: currentColor;
+}
 .contact-phone-number:hover,
 .contact-phone-number:focus {
     color: var(--iris-primary-brand);
@@ -147,4 +145,54 @@
  .contact-mail-address:hover,
  .contact-mail-address:focus {
     color: var(--iris-primary-brand);
+}
+@media screen and (max-width: 768px){
+    .page-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 21.3px;
+        padding-bottom: 21.3px;
+    }
+    .menu-nav {
+        display: none;
+    }
+    .contact-mail-phone {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .menu-nav {
+        margin-left: 120px;
+    }
+    .contact-mail-phone {
+        flex-direction: column;
+        margin-left: 118px;
+    }
+    .contact-phone-number {
+        margin-left: 1px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
+    }
+    .contact-mail-address {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 12200px){
+    .mobile-menu {
+       display: none;
+    }
+    .mobile-menu-open {
+        display: none;
+    }
 }

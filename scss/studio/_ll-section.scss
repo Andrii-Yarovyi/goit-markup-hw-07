@@ -1,10 +1,11 @@
 .section-ll {
     display: flex;
     justify-content: center;
-    
 }
 .cont-sec-2 {
     display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 .sec-2-style {
     display: flex;
@@ -23,16 +24,14 @@
     background: var(--cloud);
     border-radius: 4px;
 }
-
 .ll-section_title-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto';
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navi-blue-dark);
+    color: #2E2F42;
 }
-
 .ll-section_description {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -44,86 +43,54 @@
 
 @media screen and (max-width: 768px) {
     .cont-sec-2 {
-        display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
         gap: 72px;
     }
     .sec-2-style {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0px;
+        width: 100%;
         gap: 8px;
-        width: 396px;
+    }
+    .ll-section-link {
+        display: none;
     }
     .ll-section_title-text {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+        font-family: 'Roboto', sans-serif;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
+        align-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
     .cont-sec-2 {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px;
+        flex-wrap: wrap;
         gap: 24px;
+        row-gap: 72px;
     }
     .sec-2-style {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 8px;
         width: 356px;
     }
-    .diagram {
-        margin-top: 48px;
-    }
-    .astronaut {
-        margin-top: 48px;
-    }
-    .ll-section_title-text {
-        align-items: flex-start;
-        text-align: start;
-        justify-content: start;
-        margin: 0;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .cont-sec-2 {
-        flex-direction: row;
-        flex-wrap: wrap;
-        // gap: 24px;
-    }
-
     .ll-section-link {
         display: none;
     }
     .ll-section_title-text {
+        font-family: 'Roboto', sans-serif;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
+
+        text-align: start;
+        letter-spacing: 0.02em;
         text-transform: capitalize;
     }
 
     .ll-section_description {
-        font-weight: 400;
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
+        font-weight: 500;
     }
 }
-

@@ -21,7 +21,6 @@
     content: "";
     width: 100%;
     height: 4px;
-    
     top: 42px;
     left: -6px;
     padding: 0px 6px;
@@ -51,7 +50,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
 }
 .filters-button {
     font-family: 'Roboto', sans-serif;
@@ -83,20 +81,14 @@
 }
 .project-card-list {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 48px;
-}
-.rows {
-    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 24px;
+    row-gap: 48px;
 }
 .portfolio-list-link-wrapper {
-    
     display: block;
 }
 .portfolio-list-img-wrapper {
@@ -106,12 +98,12 @@
 .project-card {
     box-sizing: border-box;
     display: flex;
+    width: 360px;
     flex-direction: column;
     border: 0.5px solid var(--cloud);
 }
 .img-portfolio {
     width: 360px;
-    height: 300px;
     background: linear-gradient(0deg, 
     rgba(77, 90, 229, 0.1), 
     rgba(77, 90, 229, 0.1));
@@ -154,4 +146,45 @@
 .project-card:hover  
 .project-card:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-} 
+}
+
+@media screen and (max-width: 768px) {
+    .section-portfolio {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .portfolio {
+        gap: 48px;
+    }
+    .portfolio-filters-list {
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .project-card-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .img-portfolio {
+        width: 396px;
+    }
+    .project-card {
+        width: 396px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .portfolio-filters-list {
+        flex-wrap: wrap;
+        row-gap: 72px;
+    }
+    .project-card {
+        width: 354px;
+    }
+    .img-portfolio {
+        width: 354px;
+    }
+}

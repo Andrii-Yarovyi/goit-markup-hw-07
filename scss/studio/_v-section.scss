@@ -61,21 +61,19 @@
         gap: 16px;
         row-gap: 72px;
     }
-
-    .title-text {
-        font-weight: 700;
-    }
-
     .customers-list-link {
         width: 190px;
     }
-
     .customers-list-ikon {
+        width: 190px;
+    }
+    .customers-list-ikon:hover,
+    .customers-list-ikon:focus {
         width: 190px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px){
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     .customers-list {
         flex-wrap: wrap;
         row-gap: 72px;

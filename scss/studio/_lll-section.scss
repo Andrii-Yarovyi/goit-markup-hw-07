@@ -29,14 +29,12 @@
 .lll-section-img:hover,
 .lll-section-img:focus {
     box-sizing: border-box;
-    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), 
-    url(2368.jpg);
+    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
     background-blend-mode: soft-light, normal; 
     border: 1px solid #E7E9FC;
 }
-
 @media screen and (max-width: 1200px) {
     .lll {
         display: none;
-    }
+    } 
 }

@@ -7,7 +7,14 @@
     flex-direction: column;
     justify-content: center;
 }
-
+.lv-sec-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 72px;
+    gap: 24px;
+    cursor: pointer;
+}
 .team-card {
     display: flex;
     flex-direction: column;
@@ -27,7 +34,6 @@
 .lv-sec-photo {
     width: 264px;
     height: 260px;
-
 }
 .team-card-content {
     display: flex;
@@ -41,7 +47,6 @@
     display: flex;
     gap: 16px;
 }
-/* posylania */
 .social-list-link {
     display: flex;
     justify-content: center;
@@ -63,38 +68,26 @@
     background-color: #404BBF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
 .social-list-icon {
     fill: var(--cloud);
-}
-
-.lv-sec-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 72px;
-    row-gap: 72px;
-    gap: 24px;
-    cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
     .lv-sec-list {
         flex-direction: column;
+        justify-content: center;
         margin-left: auto;
         margin-right: auto;
-
+        gap: 72px;
     }
-
     .team-card {
         width: 260px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px){
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     .lv-sec-list {
         flex-wrap: wrap;
-        flex-direction: row;
-        row-gap: 72px;
+        row-gap: 56px;
     }
 }
