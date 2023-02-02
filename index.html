@@ -68,74 +68,80 @@
 
 <!-- mobile menu -->
         <div class="mobile-menu" data-menu>
-            <div class="container mobile-menu__container">
-                <button 
-                class="mobile-menu_close-btn" 
-                data-menu-close>
-                <svg class="mobile-menu_close-icon" 
-                    width="8" 
-                    height="8">
-                    <use href="./imades/sprite.svg#icon-close-modal"></use>
-                </svg>
-                </button>
-                <ul class="mobile-menu_nav list">
-                    <li class="menu-item">
-                        <a class="mobile-menu-link link" 
-                        href="./index.html">  Studio  </a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="mobile-menu-link link" 
-                        href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="mobile-menu-link link" 
-                        href="">Contacts</a>
-                    </li>
-                </ul>
-                <ul class="mobile__contact list">
-                    <li>
-                        <a class="mobile_phone-number           mobile__contacts-text link" 
-                        href="tel:+110001111111">
-                        +11 (000) 111-11-11
-                        </a>
-                    </li>
-                    <li>
-                        <a class="mobile_mail-address mobile__contacts-text link" 
-                        href="mailto:info@devstudio.com">
-                        info@devstudio.com
-                        </a>
-                    </li>
-                </ul>
-                <ul class="mobile__social-list list">
-                    <li class="social-list-item">
-                        <a href="" class="social-list-link">
-                            <svg class="social-list-icon" width="20" height="20">
-                                <use href="./imades/sprite.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social-list-item">
-                        <a href="" class="social-list-link">
-                            <svg class="social-list-icon" width="20" height="20">
-                                <use href="./imades/sprite.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social-list-item">
-                        <a href="https://www.facebook.com/" class="social-list-link">
-                            <svg class="social-list-icon" width="20" height="20">
-                                <use href="./imades/sprite.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="social-list-item">
-                        <a href="" class="social-list-link">
-                            <svg class="social-list-icon" width="20" height="20">
-                                <use href="./imades/sprite.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+            <div class="mobile-menu__container">
+                <div class="mob-menu-top">
+                    <button 
+                    class="mobile-menu_close-btn" 
+                    data-menu-close>
+                    <svg 
+                        class="mobile-menu_close-icon" 
+                        width="8" 
+                        height="8">
+                        <use href="./imades/sprite.svg#icon-close-modal"></use>
+                    </svg>
+                    </button>
+                    <ul class="mobile-menu_nav list">
+                        <li class="menu-item">
+                            <a class="mobile-menu-link link" 
+                            href="./index.html">  Studio  </a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="mobile-menu-link link" 
+                            href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="mobile-menu-link link" 
+                            href="">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mob-menu-bottom">
+                        <ul class="mobile__contact list">
+                        <li>
+                            <a class="mobile_phone-number           mobile__contacts-text link" 
+                            href="tel:+110001111111">
+                            +11 (000) 111-11-11
+                            </a>
+                        </li>
+                        <li>
+                            <a class="mobile_mail-address mobile__contacts-text link" 
+                            href="mailto:info@devstudio.com">
+                            info@devstudio.com
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="mobile__social-list list">
+                        <li class="social-list-item">
+                            <a href="" class="social-list-link">
+                                <svg class="social-list-icon" width="20" height="20">
+                                    <use href="./imades/sprite.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-list-item">
+                            <a href="" class="social-list-link">
+                                <svg class="social-list-icon" width="20" height="20">
+                                    <use href="./imades/sprite.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-list-item">
+                            <a href="https://www.facebook.com/" class="social-list-link">
+                                <svg class="social-list-icon" width="20" height="20">
+                                    <use href="./imades/sprite.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-list-item">
+                            <a href="" class="social-list-link">
+                                <svg class="social-list-icon" width="20" height="20">
+                                    <use href="./imades/sprite.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>  
     </header>
@@ -143,9 +149,9 @@
 
 <!-- MAIN -->
     <main>
-        <section class="section-hiro">
-            <div class="container hiro-fon hiro-section">
-                <h1 class="main-title title-h1">Effective Solutions <br /> For Your Business</h1>
+        <section class="section hiro-fon">
+            <div class="container hiro-section">
+                <h1 class="main-title">Effective Solutions <br /> For Your Business</h1>
                 <button 
                     data-modal-open 
                     class="modal-btn" 
@@ -489,7 +495,7 @@
 
 <!-- FOOTER -->
     <footer class="footer-fon">
-        <div class=" container footer-section">
+        <div class="container_footer footer-section">
             <div class="footer-info">
                 <div class="logo logo-footer">
                     <a class="link logo-link-footer" 
